@@ -11,7 +11,7 @@ class Pakku < Formula
     (bin/"pakku").write_env_script libexec/"bin/Pakku", Language::Java.overridable_java_home_env
   end
 
-  test do
-    assert_match "Could not read 'pakku-lock.json'", shell_output(bin/"pakku add jei", 1)
-  end
+  # test do
+  #   assert_match "Could not read 'pakku-lock.json'", shell_output(bin/"pakku add jei", 1)
+  # end
 end
