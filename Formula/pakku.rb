@@ -1,8 +1,8 @@
 class Pakku < Formula
   desc "Multiplatform modpack manager for Minecraft: Java Edition"
   homepage "https://juraj-hrivnak.github.io/Pakku/"
-  url "https://github.com/juraj-hrivnak/Pakku/releases/download/v0.17.1/Pakku-0.17.1.tar"
-  sha256 "1007771cd162ff9582fc90ea8ce555bfd2aaa51b5c89ba2518f9bd2e66698cb7"
+  url "https://github.com/juraj-hrivnak/Pakku/releases/download/v0.18.0/Pakku-0.18.0.tar"
+  sha256 "e7098b85c1bd62c5f2ee8bf039bce0f582fe72e0529d405b416078078db09e89"
   license "EUPL-1.2"
 
   def install
